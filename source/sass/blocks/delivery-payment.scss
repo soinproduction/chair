@@ -1,0 +1,212 @@
+.deliverypay {
+  &__title {
+    margin: 0px 0px 54px 0px;
+  }
+
+  &__list {}
+
+  &__item {
+    max-width: 1024px;
+    margin: 0px 0px 50px 0px;
+  }
+
+  &__item-subtitle {
+    margin: 0px 0px 24px 0px;
+  }
+
+  &__item-text {
+    font-family: $font-family--alt;
+    font-size: 16px;
+    line-height: 28 / 16 * 100%;
+    letter-spacing: 0.4px;
+    color: #737680;
+    margin: 0px 0px 30px 0px;
+
+    span {
+      color: #343538;
+    }
+
+    a:hover {
+      transition: 0.3s all ease;
+      color: $color-hover;
+    }
+  }
+}
+
+.delivery-list {
+  padding: 0px 0px 0px 15px;
+
+  &__item {
+    list-style: disc;
+  }
+
+  &__text {
+    font-family: $font-family--alt;
+    font-size: 16px;
+    line-height: 28 / 16 * 100%;
+    letter-spacing: 0.4px;
+    color: #737680;
+  }
+}
+
+.cost-delivery-table {
+  display: flex;
+  margin-bottom: 50px;
+
+  &__list {
+    &:nth-child(1) {
+      .cost-delivery-table__item {
+        padding-left: 10px;
+      }
+    }
+
+    &:nth-child(2) {
+      .cost-delivery-table__item {
+        justify-content: center;
+      }
+    }
+
+    &:nth-child(3) {
+      .cost-delivery-table__item {
+        border-right: 1px solid #737680;
+        justify-content: center;
+      }
+    }
+
+    &:nth-child(4) {
+      .cost-delivery-table__item {
+        border-left: none;
+        border-right: 1px solid #737680;
+        justify-content: center;
+      }
+    }
+  }
+
+  &__item {
+    height: 60px;
+    font-family: $font-family--alt;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #737680;
+    border-left: 1px solid #737680;
+    border-bottom: 1px solid #737680;
+
+    &.subtitle {
+      font-family: $font-family--alt;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      letter-spacing: 0.4px;
+      color: #ffffff;
+      background-color: #737680;
+      padding: 6px 0;
+    }
+  }
+
+  &.table1 {
+    .cost-delivery-table__list {
+      width: 33%;
+    }
+
+    .cost-delivery-table__list:nth-child(2),
+    .cost-delivery-table__list:nth-child(3) {
+      .cost-delivery-table__item {
+        padding: 0 10px;
+      }
+    }
+  }
+
+  &.table2 {
+    width: 100%;
+    flex-wrap: wrap;
+
+    .cost-delivery-table__list {
+      width: 25%;
+    }
+
+    .cost-delivery-table__item {
+      height: 40px;
+    }
+
+    :nth-child(1) {
+      .cost-delivery-table__item {
+        padding-left: 6px;
+        justify-content: flex-start;
+      }
+    }
+
+    :nth-child(3) {
+      .cost-delivery-table__item {
+        padding-left: 6px;
+        justify-content: flex-start;
+      }
+    }
+  }
+}
+
+.deliverypay__item--aleft {
+  td {
+    &:nth-child(3) {
+      text-align: left;
+    }
+
+    &:first-child {
+      min-width: 287px;
+    }
+  }
+
+  th {
+    min-width: 287px !important;
+  }
+}
+
+.pay-method {
+  font-family: $font-family--alt;
+  font-size: 16px;
+  line-height: 28 / 16 * 100%;
+  letter-spacing: 0.4px;
+  color: #737680;
+  padding: 0px 0px 0px 10px;
+
+  &__item {
+    list-style: disc;
+
+    span {
+      color: #343538;
+    }
+  }
+
+  &__text {}
+}
+
+.org-details {
+  &__list {
+    font-family: $font-family--alt;
+    font-size: 16px;
+    line-height: 28 / 16 * 100%;
+    letter-spacing: 0.4px;
+    color: #737680;
+    margin: 0px 0px 40px 0px;
+
+    span {
+      color: #343538;
+    }
+  }
+
+  &__item {}
+
+  &__text {
+    &--1 {
+      color: #343538;
+      margin: 0px 0px 10px 0px;
+    }
+  }
+}

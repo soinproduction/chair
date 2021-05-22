@@ -1,0 +1,53 @@
+/* -- Fonts --*/
+$font-family: "Cera Pro",
+sans-serif;
+$font-family--alt: "Lato",
+sans-serif;
+
+
+/* -- Colors --*/
+/* -- Headers --*/
+
+
+/* -- Text --*/
+$color-hover: #F18700;
+$color-text: #343538;
+$color-subtext: #fff;
+
+
+
+/* -- Menu --*/
+$color-menu: #111111;
+$color-menu--hover: rgba(17, 17, 17, 0.6);
+$color-menu--active: rgba(17, 17, 17, 0.3);
+$color-menu-alt: #ffffff;
+$color-menu-alt--hover: rgba(255, 255, 255, 0.6);
+$color-menu-alt--active: rgba(255, 255, 255, 0.3);
+
+/* -- Backgrounds --*/
+$bg--linear: linear-gradient(90deg, #b4404d 0%, #19488e 100%);
+$bg--main: #fff;
+$bg--footer: #344050;
+$bg--hover-item: #024A9B;
+
+/* -- Buttons --*/
+$color-btn:#fff;
+$color-btn-text: #231F20;
+
+
+/* -- Form --*/
+$color-label: #222222;
+$color-placeholder: #444444;
+
+/* -- Borders --*/
+$color-border: #d9d9d9;
+
+/*Widths*/
+$desktop-width: 1300px;
+$tablet-width: 768px;
+$mobile-width: 320px;
+/*Paddings*/
+$desktop-padding: 40px;
+$tablet-padding: 30px;
+$mobile-padding: 20px;
+$retina-dppx: 1.5dppx;

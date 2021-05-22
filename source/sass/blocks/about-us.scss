@@ -1,0 +1,47 @@
+.about-us-block {
+
+  &__title {
+    margin: 0px 0px 80px 0px;
+  }
+
+  &__top-image {
+    margin: 0px 0px 100px 0px;
+  }
+
+  &__text {
+    padding: 0 111px;
+  }
+
+  &__text-item {
+    margin: 0px 0px 50px 0px;
+
+    &:last-child {
+      margin: 0px 0px 92px 0px;
+    }
+  }
+
+  &__text-item-subtitle {
+    margin: 0px 0px 50px 0px;
+  }
+
+  &__text-item-main {
+    font-family: $font-family--alt;
+    font-size: 16px;
+    line-height: 28 / 16 * 100%;
+    letter-spacing: 0.4px;
+    color: #737680;
+  }
+
+  &__bottom-image {
+    position: relative;
+  }
+}
+
+
+.play-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

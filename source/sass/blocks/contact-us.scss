@@ -1,0 +1,83 @@
+.about-us-block {}
+
+.about-us-wrapper {}
+
+.about-us {
+
+  &__title {
+    margin: 0px 0px 54px 0px;
+  }
+
+  &__list {
+    font-family: $font-family--alt;
+    font-size: 16px;
+    line-height: 28 / 16 * 100%;
+    letter-spacing: 0.4px;
+    color: #737680;
+  }
+
+  &__item {
+    margin: 0px 0px 50px 0px;
+  }
+
+  &__item-text {
+    max-width: 929px;
+    margin: 0px 0px 16px 0px;
+  }
+
+  &__item-wrapper {
+    display: flex;
+  }
+
+  &__item-wrapper-l {
+    margin: 0px 53px 0px 0px;
+
+    .about-us__item-text:last-child {
+      margin: 0px 0px 0px 0px;
+    }
+
+  }
+
+  &__item-wrapper-r {}
+
+  &__subtitle {
+    margin: 0px 0px 24px 0px;
+  }
+
+  &__item-image {}
+
+  &__item-img {}
+}
+
+.contacts {
+  min-width: 243px;
+  max-width: 250px;
+
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 8px 0px;
+  }
+
+  &__item-text {}
+
+  &__item-link {
+    font-family: $font-family--alt;
+    min-width: 130px;
+  }
+}
+
+
+
+.org-details {
+
+  &__list {}
+
+  &__item {
+    margin: 0px 0px 8px 0px;
+  }
+
+  &__text {}
+}
